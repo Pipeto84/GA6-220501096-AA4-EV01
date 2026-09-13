@@ -1,19 +1,10 @@
-# React + Vite
+GA6-220501096-AA4-EV01
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fundamentos en la implementación de componentes front-end, HTML, CSS, JS
 
-Currently, two official plugins are available:
+Es una pagina web con un tutorial sobre manejo de HTML, CSS y JavaScript 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Esta evidencia esta desarrollada en React con HTML, CSS y JavaScript utilizando Vite
 
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Por: Juan Felipe Jaramillo Uribe c.c. 8125294 Ficha 3186588
+Analis y Desarrollo de Software - SENA
