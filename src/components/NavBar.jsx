@@ -13,7 +13,7 @@ export const Navbar = () => {
         <NavLink to="/css" className="linkNav">
           <button className="btnLink">CSS</button>
         </NavLink>
-        <NavLink to="/javascript" className="linkNav">
+        <NavLink to="/js" className="linkNav">
           <button className="btnLink">JavaScript</button>
         </NavLink>
       </div>
