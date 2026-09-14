@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e0dede;
+  color: #666262;
+  font-family: "Rubik Wet Paint", "Montserrat", sans-serif;
+  font-weight: normal;
+}
