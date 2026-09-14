@@ -23,8 +23,9 @@ function JS() {
       </p>
       <img src="../../public/js1.png" className="imagen" />
       <p className="infoImagen">
-        Imagen 1: Código JavaScript aplicado en la pregunta
+        Imagen: Código JavaScript aplicado en la pregunta que hay abajo
       </p>
+      <img src="../../public/js2.png" className="imagen" />
       <p className="descripcion">
         JavaScript permite a los desarrolladores web crear aplicaciones web
         dinámicas y mejorar la experiencia del usuario al permitir la

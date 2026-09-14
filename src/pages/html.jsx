@@ -1,6 +1,18 @@
+import { useState } from "react";
 import "../styles/html.css";
 
 function HTML() {
+  const [resultado, setResultado] = useState(0);
+  const vistaResultado = () => {
+    if (resultado === 1) {
+      return <p className="respuesta-correcta">¡Respuesta correcta!</p>;
+    } else if (resultado === 2) {
+      return <p className="respuesta-incorrecta">Respuesta incorrecta</p>;
+    } else {
+      return null;
+    }
+  };
+
   return (
     <div className="html-container">
       <h1 className="titulo">HTML</h1>
@@ -38,6 +50,29 @@ function HTML() {
         fundamental para cualquier persona que desee aprender desarrollo web y
         crear páginas modernas, accesibles y funcionales.
       </p>
+      <div className="pregunta">
+        <h2 className="subtitulo">Pregunta:</h2>
+        <p className="pregunta-texto">
+          ¿Cuál es la función principal de HTML en el desarrollo web?
+        </p>
+        <div className="respuesta">
+          <button className="boton-respuesta" onClick={() => setResultado(2)}>
+            Dar estilos visuales, colores y diseño a los elementos de la página.
+          </button>
+          <button className="boton-respuesta" onClick={() => setResultado(1)}>
+            Estructurar, organizar y definir el contenido básico de una página
+            web (como textos, imágenes y enlaces).
+          </button>
+          <button className="boton-respuesta" onClick={() => setResultado(2)}>
+            Programar la lógica interactiva, funciones y animaciones del sitio
+            web.
+          </button>
+          <button className="boton-respuesta" onClick={() => setResultado(2)}>
+            Administrar y almacenar las bases de datos de un servidor web.
+          </button>
+        </div>
+        <div className="resultado">{vistaResultado()}</div>
+      </div>
     </div>
   );
 }
