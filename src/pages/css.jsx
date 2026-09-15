@@ -1,5 +1,6 @@
 import "../styles/css.css";
 import { useState } from "react";
+import css1 from "../../public/css1.png";
 
 function CSS() {
   const [resultado, setResultado] = useState(0);
@@ -24,7 +25,7 @@ function CSS() {
         contenido, incluyendo aspectos como colores, fuentes, tamaños, márgenes
         y disposición de los elementos.
       </p>
-      <img src="../../public/css1.png" className="imagen" />
+      <img src={css1} className="imagen" />
       <p className="infoImagen">
         Imagen 1: Código CSS aplicado a los elementos HTML de esta página web
       </p>

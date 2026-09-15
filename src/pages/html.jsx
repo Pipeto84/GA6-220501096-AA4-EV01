@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "../styles/html.css";
+import html1 from "../../public/html1.png";
+import html2 from "../../public/html2.png";
 
 function HTML() {
   const [resultado, setResultado] = useState(0);
@@ -24,7 +26,7 @@ function HTML() {
         etiquetas para indicar al navegador cómo debe organizar y mostrar
         diferentes elementos de una página.
       </p>
-      <img src="../../public/html1.png" className="imagen" />
+      <img src={html1} className="imagen" />
       <p className="infoImagen">
         Imagen 1: Estructura básica de un documento HTML
       </p>
@@ -39,7 +41,7 @@ function HTML() {
         conocimiento es fundamental para cualquier persona que desee aprender
         desarrollo web y crear páginas modernas, accesibles y funcionales.
       </p>
-      <img src="../../public/html2.png" className="imagen" />
+      <img src={html2} className="imagen" />
       <p className="infoImagen">
         Imagen 2: Codigo HTML con etiquetas y contenido de esta página web
       </p>
