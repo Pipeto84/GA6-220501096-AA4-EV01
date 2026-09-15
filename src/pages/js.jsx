@@ -39,17 +39,11 @@ function JS() {
           ¿Qué es JavaScript y para qué se utiliza en el desarrollo web?
         </p>
         <div className="respuesta">
-          <button
-            className="boton-respuesta"
-            onClick={() => setResultado(2)}
-          >
+          <button className="boton-respuesta" onClick={() => setResultado(2)}>
             Estructurar el contenido visual y los textos de una página web
             mediante etiquetas estáticas.
           </button>
-          <button
-            className="boton-respuesta"
-            onClick={() => setResultado(2)}
-          >
+          <button className="boton-respuesta" onClick={() => setResultado(2)}>
             Diseñar los colores, los estilos, las fuentes y la distribución
             visual de los elementos en la pantalla.
           </button>
@@ -57,17 +51,12 @@ function JS() {
             Añadir interactividad, animaciones, validación de formularios y
             contenido dinámico que responde al usuario.
           </button>
-          <button
-            className="boton-respuesta"
-            onClick={() => setResultado(2)}
-          >
+          <button className="boton-respuesta" onClick={() => setResultado(2)}>
             Gestionar y administrar de forma nativa los servidores físicos de
             una empresa de hosting
           </button>
         </div>
-        <div className="resultado">
-          {vistaResultado()}
-        </div>
+        <div className="resultado">{vistaResultado()}</div>
       </div>
     </div>
   );
